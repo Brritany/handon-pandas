@@ -1,0 +1,11 @@
+{
+  "name": "pandas-tutorial",
+  "version": "1.0.0",
+  "description": "A Pandas tutorial",
+  "scripts": {
+    "build": "netlify-lambda build app"
+  },
+  "dependencies": {
+    "netlify-lambda": "^2.0.3"
+  }
+}
