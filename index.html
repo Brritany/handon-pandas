@@ -18,6 +18,7 @@
     <div id="left-panel">
       <h2>Challenge 1: Create a DataFrame from a Dictionary</h2>
       <p id="scenario">Scenario: Imagine you are a data analyst and you need to create a DataFrame to hold the names and ages of five persons.</p>
+      <div id="expected-output">Expected Output: DataFrame with columns 'Name' and 'Age'</div>
       <div id="answer" style="display:none;">Answer: <code>import pandas as pd
 df = pd.DataFrame({'Name': ['Alice', 'Bob', 'Charlie'], 'Age': [25, 30, 35]})</code></div>
       <button onclick="toggleAnswer()">Show Answer</button>
@@ -26,6 +27,7 @@ df = pd.DataFrame({'Name': ['Alice', 'Bob', 'Charlie'], 'Age': [25, 30, 35]})</c
     <div id="right-panel">
       <textarea id="editor"></textarea>
       <button onclick="submitCode()">Run Code</button>
+      <div id="program-output">Program Output:</div>
       <div id="output"></div>
     </div>
   </main>
