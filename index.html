@@ -21,9 +21,10 @@
       <div id="answer" style="display:none;">Answer: <code>import pandas as pd
 df = pd.DataFrame({'Name': ['Alice', 'Bob', 'Charlie'], 'Age': [25, 30, 35]})</code></div>
       <button onclick="toggleAnswer()">Show Answer</button>
+      <div id="hint">Hint: Use pandas.DataFrame to create a DataFrame from a dictionary.</div>
     </div>
     <div id="right-panel">
-      <div id="editor" contenteditable="true"></div>
+      <textarea id="editor"></textarea>
       <button onclick="submitCode()">Submit</button>
       <div id="output"></div>
     </div>
