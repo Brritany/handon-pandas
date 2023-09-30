@@ -15,18 +15,18 @@
     </nav>
   </header>
   <main>
-    <h1>Pandas Tutorial</h1>
-    <section id="challenges">
+    <div id="left-panel">
       <h2>Challenge 1: Create a DataFrame from a Dictionary</h2>
       <p id="scenario">Scenario: Imagine you are a data analyst and you need to create a DataFrame to hold the names and ages of five persons.</p>
-      <div id="editor" contenteditable="true"></div>
-      <button onclick="submitCode()">Submit</button>
-      <div id="output"></div>
       <div id="answer" style="display:none;">Answer: <code>import pandas as pd
 df = pd.DataFrame({'Name': ['Alice', 'Bob', 'Charlie'], 'Age': [25, 30, 35]})</code></div>
       <button onclick="toggleAnswer()">Show Answer</button>
-      <div id="hint">Hint: Use pandas.DataFrame to create a DataFrame from a dictionary.</div>
-    </section>
+    </div>
+    <div id="right-panel">
+      <div id="editor" contenteditable="true"></div>
+      <button onclick="submitCode()">Submit</button>
+      <div id="output"></div>
+    </div>
   </main>
   <script src="script.js"></script>
 </body>
